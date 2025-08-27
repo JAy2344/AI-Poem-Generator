@@ -1,0 +1,51 @@
+body{
+    background-color: plum;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size: 36px;
+    color: black;
+    list-style: 1.5;
+    font-weight: 800;
+    text-align: center;
+}
+.container{
+    margin: 120px auto;
+    max-width: 600px;
+}
+header{
+    margin-bottom: 30px;
+    
+}
+form{
+    padding: 30px;
+    background-color: white ;
+    border-radius: 10px;
+    display: flex;
+}
+.prompt{
+    padding: 16px;
+    border: 1px solid #ccc;
+    width: 80% ;
+    font-size: 16px;
+    border-radius: 50px;
+    line-height: 20px;
+    color: lightskyblue;
+}
+.btn{
+    margin-left: 10px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    padding: 14px 24px;
+    font-size: 16px;
+
+
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
