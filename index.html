@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css">
     <title>AI Poem Generator</title>
 </head>
@@ -14,15 +15,12 @@
     </header>
 
     <main>
-<form action="">
+<form action="" class="poem-generator">
     <input type="text" id="userInput" placeholder="Enter a topic..."  class="prompt" autocomplete="off" required>
     <input type="submit" value="Generate Poem" class="btn">
 </form>
 <br>
 <div id="poem-container">
-       <p>Pink, a color of tenderness, sweetness, and love,
-        <br> is found in delicate things like a rose's blush,
-        <br> a baby's soft skin, and the pastel glow of dawn</p>
 </div>
 </div>
   </main>
@@ -34,5 +32,6 @@
           <a href="https://unique-scone-e1de58.netlify.app/" target="_blank">hosted on Netlify</a>
         </p>
       </footer>
+      <script src="src/index.js"></script>
 </body>
 </html>
