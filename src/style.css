@@ -1,57 +1,66 @@
-body{
-    background-color: f9f9ff;
+body {
+    background-color: #f9f9ff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-a{
+
+a {
     color: blueviolet;
+    text-decoration: none;
 }
-h1{
+
+h1 {
     font-size: 36px;
     color: black;
-    list-style: 1.5;
+    line-height: 1.5;
     font-weight: 800;
     text-align: center;
 }
-.container{
+
+.container {
     margin: 120px auto;
     max-width: 600px;
 }
-header{
+
+header {
     margin-bottom: 30px;
-    
 }
-#form-container{
-   padding: 20px 30px;
-    background-color: white ;
+
+#form-container {
+    padding: 20px;
+    background-color: white;
     border-radius: 10px;
-     margin-bottom: 30px;
-      box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+    margin-bottom: 30px;
+    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
-form{
-   
+
+form {
     display: flex;
+    align-items: center;
 }
-#hint{
-    line-height: 1.5px;
+
+#hint {
+    line-height: 1.5;
     font-size: 12px;
     margin-top: 6px;
-    opacity: 0.5;
-
+    opacity: 0.6;
 }
-.hidden{
+
+.hidden {
     display: none;
-
 }
-#userInput{
+
+#userInput {
     padding: 16px;
     border: 1px solid #ccc;
-    width: 80% ;
+    width: 80%;
     font-size: 16px;
     border-radius: 50px;
     line-height: 20px;
-    color: lightskyblue;
+    color: #333; /* better text readability */
+    outline: none;
 }
-.btn{
+
+.btn {
     margin-left: 10px;
     background-color: blueviolet;
     border: none;
@@ -59,33 +68,41 @@ form{
     border-radius: 50px;
     padding: 14px 24px;
     font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
 }
-#poem{
-font-size: 16px;
-background-color: white;
-padding: 20px;
-line-height: 24px;
-border-left: 3px solid blueviolet;
-box-shadow: 8px 20px 60px rgba(0,0,0,0.5);
-border-radius: 18px;
+
+.btn:hover {
+    background-color: darkviolet;
 }
+
+#poem {
+    font-size: 16px;
+    background-color: white;
+    padding: 20px;
+    line-height: 24px;
+    border-left: 3px solid blueviolet;
+    box-shadow: 8px 20px 60px rgba(0, 0, 0, 0.15);
+    border-radius: 18px;
+    white-space: pre-wrap; /* keeps poem line breaks */
+}
+
 .generating {
-  animation: blink-animation 1s steps(5, start) infinite;
+    animation: blink-animation 1s steps(5, start) infinite;
 }
 
 @keyframes blink-animation {
-  to {
-    visibility: hidden;
-  }
+    to {
+        visibility: hidden;
+    }
 }
-@-webkit-keyframes blink-animation {
-  to {
-    visibility: hidden;
-  }
-}
-footer{
+
+footer {
     text-align: center;
     margin-top: 20px;
     font-size: 14px;
     color: #555;
+}
+footer a {
+    color: blueviolet;
 }
