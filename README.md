@@ -17,4 +17,12 @@ It utilizes an **AI API** to generate creative poems based on user prompts, prov
 ## 🛠️ Tech Stack
 - **Frontend**: HTML, CSS, JavaScript  
 - **AI API**: Connected to an AI text-generation API for poems  
-- **Hosting**: Can be deployed on Netlify  
+- **Hosting**: Can be deployed on Netlify
+   
+---
+
+## ⚡ How It Works
+1. User types a **prompt** (e.g., "love", "nature", "friendship").  
+2. The app sends the prompt to the **AI API**.  
+3. The AI generates a poem and displays it on the screen.  
+
